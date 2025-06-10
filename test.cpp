@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+#ifdef MAIN1
 int main(void) {
 	printf("Hello World \n");
 
@@ -21,3 +22,4 @@ int main(void) {
 		printf("割り算：%d（a）/ %d（b）= %d", a, b, a / b);
 	}
 }
+#endif
